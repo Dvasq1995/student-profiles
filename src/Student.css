@@ -1,0 +1,68 @@
+.item_container {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 40px;
+  border-bottom: 1px gray solid;
+} 
+
+.profile_pic {
+  border: 3px #dcdcdc solid;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.heading {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item {
+  margin-right: 40px;
+}
+
+.item2 {
+    margin-left: 10px;
+}
+
+.subheading {
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.heading_container {
+    display: flex;
+    align-items: center;
+}
+
+.gradesBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gradesBtn:hover {
+  color: black;
+}
+
+.tagAdd {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+}
+
+.tagAdd:focus {
+  outline: none;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: #D3D3D3;
+}
